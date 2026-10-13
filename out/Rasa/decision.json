@@ -1,0 +1,5 @@
+{"company": "Rasa",
+ "variant": "ai",
+ "reason": "Rasa builds a conversational AI platform. Its main product is CALM, which 'extends the flexibility of LLMs with the reliability of deterministic logic', and it also offers Enterprise RAG, voice agents, multi-agent orchestration and Rasa Studio. Its open-source Python framework (21k+ GitHub stars) is in maintenance mode now that development has moved to CALM and Hello Rasa. It is an AI-first conversational product, so the ai variant fits, with Hsan's YAML-configurable chatbot platform, bilingual RAG assistant and multi-agent LangGraph work leading.",
+ "keywords_added": ["conversational AI", "multi-agent", "bilingual (FR/EN)", "chatbot platform", "LLM orchestration"],
+ "flags": ["Careers page showed no loaded open positions and publishes no tech stack; CV highlights Python/FastAPI and LLM work", "Hsan has not used Rasa/CALM itself; CV and mail do not claim it", "No contact name in companies.csv; mail uses 'Hello,'"]}

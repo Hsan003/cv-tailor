@@ -1,0 +1,5 @@
+{"company": "Flank",
+ "variant": "ai",
+ "reason": "flank.ai builds 'AI agents for enterprise legal teams' that handle high-volume contracting workflows end-to-end (legal intake, agentic drafting, review and redlining, Flank Record), and its $10M round (Insight Partners, 2025) mentions a proprietary agentic framework and a vector-less retrieval engine. It is an AI-first agent product, so the ai variant fits. Hsan's Mazdev legal contract review platform and his LangGraph agents lead the CV.",
+ "keywords_added": ["legal contract review", "enterprise", "AI agents", "document ingestion", "Legal Document AI"],
+ "flags": ["Flank publishes no tech stack (site, careers page and funding press name only a proprietary agentic framework and a vector-less retrieval engine); CV emphasises legal contract review, RAG and LangGraph agents rather than specific tools", "Careers page lists no engineering openings (only a Client Delivery Manager, UK/UAE remote); the team is described as spread across the UK and Germany", "No contact name in companies.csv; mail uses 'Hello,'"]}

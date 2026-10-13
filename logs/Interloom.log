@@ -1,0 +1,5 @@
+**ai**: Interloom's product is AI agents working from a "Context Graph" memory layer built out of emails, tickets and resolved cases. The only engineering opening is Platform Engineer, so the CV also brings forward the Kubernetes, observability and multi-tenant work. Check passed: CHECK OK (1 page). **Flags:**
+- Hsan has no knowledge-graph or graph-database experience, so the CV shows document ingestion, vector retrieval (Qdrant/Pinecone) and the KubeMind correlation agent instead.
+- The Platform Engineer posting asks for Go, Terraform/OpenTofu, infrastructure as code and multi-cloud. None of these are in facts.yaml.
+- There's no internship or PFE posting, so this is a spontaneous application.
+- companies.csv has no contact name, so the mail opens with "Hello,". The city column only says "Germany"; Interloom's offices are in Munich and Berlin.

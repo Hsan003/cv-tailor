@@ -1,0 +1,61 @@
+% Compile with pdflatex
+% Everything OUTSIDE the EDIT-ZONE blocks is locked: scripts/check.py fails the run if it changes.
+% Every @@PLACEHOLDER@@ must be replaced; check.py fails if one is left.
+\documentclass[10pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{roboto}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[top=1.5cm,bottom=1.5cm,left=2.1cm,right=2.1cm]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\definecolor{ink}{HTML}{1F2933}
+\definecolor{muted}{HTML}{52606D}
+\definecolor{accent}{HTML}{2B5C8A}
+\color{ink}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{7pt}
+\emergencystretch=2em
+\AtBeginDocument{\fontsize{10.5}{14}\selectfont}
+
+\begin{document}
+
+{\LARGE\bfseries HSAN ELLOUZE}\\[3pt]
+{\color{muted} Final-year Software Engineering student, INSAT}\\[2pt]
+{\footnotesize +216 95 112 002 | Tunis, Tunisia | hsanellouz@gmail.com}\\[1pt]
+{\footnotesize \href{https://hsanellouze.site}{hsanellouze.site} \ | \ \href{https://linkedin.com/in/hsanellouze}{linkedin.com/in/hsanellouze} \ | \ \href{https://github.com/Hsan003}{github.com/Hsan003}}
+
+{\color{muted}\rule{\linewidth}{0.4pt}}
+
+% >>> EDIT-ZONE recipient
+@@RECIPIENT_NAME_OR_HIRING_TEAM@@\\
+@@COMPANY@@\\
+@@CITY@@
+% <<< EDIT-ZONE recipient
+
+% >>> EDIT-ZONE date
+{\raggedleft Tunis, @@DATE@@\par}
+% <<< EDIT-ZONE date
+
+% >>> EDIT-ZONE subject
+\textbf{Application: @@JOB_TITLE@@ -- end-of-studies internship (PFE) from February 2027}
+% <<< EDIT-ZONE subject
+
+% >>> EDIT-ZONE body
+@@GREETING@@
+
+@@P1_ROLE_AND_WHY_THIS_COMPANY@@
+
+@@P2_WHY_THIS_JOB_FITS_MY_PROFILE@@
+
+@@P3_MOTIVATION_WHAT_I_WANT_TO_LEARN_AND_BRING@@
+
+@@P4_AVAILABILITY_RELOCATION_CLOSING@@
+% <<< EDIT-ZONE body
+
+Best regards,\\[4pt]
+Hsan Ellouze
+
+\end{document}

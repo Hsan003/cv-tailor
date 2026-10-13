@@ -1,0 +1,12 @@
+{
+  "company": "cognee",
+  "variant": "ai",
+  "reason": "cognee.ai presents Cognee as an open-source memory platform for AI agents ('Memory for Agents, Teams, and People'), shipped as a Python SDK, an MCP server and Cognee Cloud, with integrations for LangGraph, Claude Code and Cursor. Its GitHub README describes turning documents, code and conversations into a knowledge graph plus vector search for agent retrieval. This is an AI-first product built on RAG and agent tooling, so the ai variant fits best.",
+  "keywords_added": ["RAG", "document ingestion pipeline", "vector search", "semantic retrieval", "LangGraph agents", "Python"],
+  "flags": [
+    "Cognee is built around knowledge graphs (entities and relationships) and graph stores; Hsan has no knowledge-graph or graph-database experience, so the CV highlights chunking, embeddings, vector search (Qdrant/Pinecone) and the KubeMind correlation agent instead",
+    "Cognee's default stack is Postgres/PGVector; neither is in facts.yaml, so the CV shows Qdrant/Pinecone instead",
+    "Cognee ships an MCP server and a Rust engine (Cognee-RS); Hsan has no MCP or Rust experience listed",
+    "No PFE/internship posting found on cognee.ai; a third-party board (arbeitnow) lists an AI Engineer Working Student role in Berlin, not confirmed on the company site"
+  ]
+}

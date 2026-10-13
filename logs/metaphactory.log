@@ -1,0 +1,8 @@
+I used the **ai** variant (the check passed: `CHECK OK`, 1 page). metaphactory calls itself "the semantic intelligence layer for enterprise AI": a knowledge graph platform plus metis, its AI platform. Its 5.10 release added vector search and embedding-based retrieval, which matches Hsan's RAG and embeddings work.
+
+**Flags:**
+- The core of the product is knowledge graphs (RDF, OWL, SHACL, SPARQL), and Hsan has no experience with these. The CV highlights RAG, embeddings and vector search (Qdrant/Pinecone) instead.
+- Past metaphacts engineering job ads were Java-centric. Java is in the skills list, but no CV bullet shows Java work.
+- I found no current internship or PFE opening, and the careers page returned 404, so this is a fully spontaneous application.
+
+Sources: [metaphactory.com](https://metaphactory.com/), [metaphactory 5.10 release](https://metaphacts.com/metaphactory-5-10), [Campusjaeger Senior Java Developer listing](https://www.campusjaeger.de/en/job/11386-senior-java-developer-m-f-d-it-computer-science)

@@ -1,0 +1,8 @@
+**`ai`**, because Noxtua is a legal AI company (AI tools for legal research, analysis and drafting over 210M+ documents, open-source and frontier model agents), so the CV leads with the Mazdev legal contract review platform. CV check passed on one page.
+
+Flags:
+- noxtua.com doesn't publish its tech stack. A job-board listing tags PostgreSQL, Angular, Datadog, Grafana and Sentry, and none of these are in `facts.yaml`, so the CV highlights MongoDB/MySQL/Supabase, React/Next.js/Vue and Prometheus/Loki instead.
+- The content and backers are European legal publishers serving German-speaking markets (C.H.BECK, MANZ), and `facts.yaml` lists no German skill.
+- The careers page lists only 5 non-engineering roles, and no internship or PFE opening.
+- No contact name was given, so the mail opens with "Hello,". The city is only "Germany" (offices in Berlin and Munich, among others), so the CV and mail say relocation to Germany.
+- I dropped the PromptCraft project as the least relevant.

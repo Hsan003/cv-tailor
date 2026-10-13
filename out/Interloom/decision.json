@@ -1,0 +1,12 @@
+{
+  "company": "Interloom",
+  "variant": "ai",
+  "reason": "interloom.com presents an AI operations platform where domain experts and AI agents resolve cases together, built on a 'Context Graph' that its Platform Engineer posting calls 'a permanent memory layer that lets AI agents act on your company's real, proven decisions', with customers such as Zurich Insurance and Fiege. The product is AI-first (agents, structured memory, LLM infrastructure), so the ai variant fits; the only open engineering role is Platform Engineer, so the CV also surfaces Kubernetes, observability and multi-tenant work.",
+  "keywords_added": ["AI agents", "document ingestion", "multi-tenant", "tenant isolation", "enterprise", "structured context", "Kubernetes"],
+  "flags": [
+    "Interloom's core is a context graph; Hsan has no knowledge-graph or graph-database experience, so the CV highlights document ingestion, embeddings, vector retrieval (Qdrant/Pinecone) and the KubeMind correlation agent instead",
+    "The open Platform Engineer role (remote, CET) asks for Go, Terraform or OpenTofu, infrastructure as code and multi-cloud; none are in facts.yaml, the CV shows Docker, Kubernetes, GitHub Actions and Prometheus/Loki instead",
+    "No internship or PFE posting on interloom.com/en/careers (only Product Designer and Platform Engineer); spontaneous application",
+    "No contact name in companies.csv; city column says only Germany, offices are in Munich and Berlin"
+  ]
+}

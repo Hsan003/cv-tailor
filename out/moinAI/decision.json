@@ -1,0 +1,5 @@
+{"company": "moinAI",
+ "variant": "ai",
+ "reason": "moin.ai presents itself as an 'Agentic AI platform for digital customer communication' (AI chatbot, AI agents, a knowledge base with guardrails, live chat with human handover, a chat widget). It is LLM/GenAI-powered and used by 170+ companies. That makes it an AI-first conversational product, so the ai variant fits, with Hsan's chatbot platform, RAG chatbot and embeddable widget leading.",
+ "keywords_added": ["conversational AI", "knowledge base", "chatbot platform", "chat widget", "AI agents"],
+ "flags": ["moin.ai and its jobs page publish no tech stack; CV emphasises chatbot/RAG work rather than specific tools", "Jobs page lists no open positions (spontaneous applications go to team@moin.ai)", "No contact name in companies.csv; mail uses 'Hello,'", "Site is mainly in German; CV and mail stay in English per pipeline rules"]}

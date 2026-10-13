@@ -1,0 +1,12 @@
+{
+  "company": "Langfuse (ClickHouse)",
+  "variant": "ai",
+  "reason": "Langfuse builds an open-source (MIT) LLM engineering platform: hierarchical tracing of LLM calls, tool invocations and retrieval steps, evaluations (LLM-as-a-judge, human annotation), prompt management and a playground. Its users are teams building LLM/RAG applications, so the ai variant fits best; observability wording and the fullstack TypeScript/Next.js side are surfaced because the careers page lists Backend, Frontend and Integrations engineers and the product is an observability tool.",
+  "keywords_added": ["LLM application", "observability", "LLM output quality", "automated testing", "latency", "TypeScript"],
+  "flags": [
+    "Langfuse stores traces in ClickHouse and transactional data in PostgreSQL; neither is in facts.yaml, CV highlights MongoDB/MySQL/Redis instead",
+    "Langfuse is built on OpenTelemetry; not in facts.yaml, CV highlights Prometheus/Loki observability work instead",
+    "No formal LLM-as-a-judge evaluation experience; closest real evidence is the KubeMind 3-provider output quality comparison",
+    "Langfuse joined ClickHouse in January 2026; open roles are on the ClickHouse careers site (European roles remote-first with periodic Berlin visits)"
+  ]
+}

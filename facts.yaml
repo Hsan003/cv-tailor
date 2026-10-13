@@ -1,0 +1,165 @@
+# Single source of truth about Hsan. The tailoring step may REORDER and EMPHASISE these facts,
+# never add to them. scripts/check.py enforces the `technologies` and numbers rules.
+
+identity:
+  name: Hsan Ellouze
+  school: INSAT (National Institute of Applied Sciences and Technology), Tunis
+  degree: Engineering Degree in Software Engineering, Sep 2022 - Sep 2027 (expected)
+  seeking: end-of-studies internship (PFE), 4-6 months, starting February 2027, Europe (France/Germany first), open to relocation
+  portfolio: https://hsanellouze.site
+  linkedin: https://linkedin.com/in/hsanellouze
+  github: https://github.com/Hsan003
+  email: hsanellouz@gmail.com
+
+# Hard corrections applied to the old CV files
+corrections:
+  - "Applicare is in Canada (remote), never Tunis"
+  - "Portfolio domain is hsanellouze.site, never hsanellouze.me"
+
+experience:
+  - org: Applicare (Canada, remote)
+    role: AI Engineer Intern
+    dates: Jun 2026 - Aug 2026
+    facts:
+      - AskSahera, bilingual FR/EN production RAG chatbot, ~100 source documents
+      - Dual-source ingestion (PubMed XML + GROBID PDF parsing), IMRAD-aware chunking, sliding-window fallback
+      - Express.js RAG backend, Qdrant, OpenAI embeddings, Claude for generation, Cloudflare R2
+  - org: Mazdev (Tunis)
+    role: Software Engineer Intern (Jul-Sep 2025) / Fullstack Developer (Mar-Jun 2025)
+    facts:
+      - YAML-configurable chatbot platform, 20+ bot variants created by non-technical users
+      - RAG engine (Pinecone), 94% semantic accuracy, embeddings optimisation cut latency 45%
+      - Automated testing framework, QA cycle -50%
+      - AI legal contract review platform, 40+ enterprise clients, analysis time -60%
+      - React/Next.js + FastAPI, 500+ contract reviews/month
+      - Docker CI/CD pipeline, infra setup time -75%
+  - org: Steros (Sfax)
+    role: Frontend Developer Intern, Jul-Aug 2024
+    facts:
+      - Responsive showcase website, interactive UI components, PHP/MySQL backend
+
+projects:
+  - KubeMind (3-person capstone): 5-layer agentic architecture; 3 LangChain/LangGraph agents (logs, metrics, events) + correlation agent; FastAPI + Next.js; Prometheus, Loki, Kafka, MongoDB; benchmarked OpenAI, Gemini, Ollama on 3 incident scenarios
+  - Multi-tenant AI chatbot widget: single script tag, Shadow DOM isolation, domain validation, Hono, Supabase, Upstash Redis, Railway, Cloudflare Pages
+  - PromptCraft: AI NFT generation + auction platform, WebSocket/SSE bidding, 100+ concurrent users, latency -60%
+
+activities:
+  - Event Mission Leader, Junior Enterprise INSAT 2024-2025 (~40 members, Forum INSAT Entreprise 1,500+ attendees, 40+ companies)
+  - Operations Manager, WinterCup 7.0 (2025), overnight coding contest, ~300 participants
+
+# Technologies Hsan has genuinely used. ONLY these may appear in a tailored CV.
+# Matching is case-insensitive on whole words. Add a tool here only when it is true.
+technologies:
+  - Python
+  - JavaScript
+  - TypeScript
+  - Java
+  - C#
+  - PHP
+  - SQL
+  - React
+  - Next.js
+  - Vue
+  - FastAPI
+  - NestJS
+  - Express.js
+  - Hono
+  - ASP.NET Core
+  - LangChain
+  - LangGraph
+  - Qdrant
+  - Pinecone
+  - OpenAI
+  - Claude
+  - Gemini
+  - Ollama
+  - GROBID
+  - RAG
+  - Docker
+  - Kubernetes
+  - GitHub Actions
+  - ArgoCD
+  - Linux
+  - Git
+  - Prometheus
+  - Loki
+  - Kafka
+  - MongoDB
+  - MySQL
+  - Supabase
+  - Redis
+  - Upstash
+  - Vercel
+  - Railway
+  - Cloudflare
+  - Tailwind
+  - shadcn
+  - LaTeX
+  - WebSocket
+  - SSE
+  - REST
+  - CI/CD
+
+# Technologies a company might name that Hsan has NOT used. If one appears in a tailored CV,
+# check.py fails. Extend freely; this is a tripwire list, not an exhaustive one.
+forbidden_lexicon:
+  - AWS
+  - Azure
+  - GCP
+  - Google Cloud
+  - Terraform
+  - Ansible
+  - Helm
+  - Jenkins
+  - GitLab CI
+  - CircleCI
+  - Grafana
+  - Elasticsearch
+  - OpenSearch
+  - Datadog
+  - Splunk
+  - PostgreSQL
+  - Postgres
+  - Cassandra
+  - DynamoDB
+  - Snowflake
+  - BigQuery
+  - Spark
+  - Airflow
+  - dbt
+  - Flink
+  - Hadoop
+  - RabbitMQ
+  - Rust
+  - Golang
+  - Scala
+  - Kotlin
+  - Swift
+  - Ruby
+  - Rails
+  - Django
+  - Flask
+  - Spring Boot
+  - Spring
+  - Angular
+  - Svelte
+  - PyTorch
+  - TensorFlow
+  - scikit-learn
+  - Hugging Face
+  - MLflow
+  - Kubeflow
+  - Weaviate
+  - Milvus
+  - Chroma
+  - pgvector
+  - Istio
+  - Envoy
+  - Nginx
+  - Pulumi
+  - Prisma
+  - GraphQL
+  - gRPC
+  - Selenium
+  - Cypress
+  - Jira

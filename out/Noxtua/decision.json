@@ -1,0 +1,13 @@
+{
+  "company": "Noxtua",
+  "variant": "ai",
+  "reason": "noxtua.com presents a European legal AI company building AI tools for legal research, analysis and drafting (Word/Outlook add-ins, Matrix Analysis, Workflows) over 210 million searchable documents and 15.8 million court decisions, with an Athena agent on open-source models and a Minerva agent on frontier models. Its Data Engineer posting describes ETL pipelines cleaning XML-based legal data from multiple jurisdictions. This is an AI-first legal document product, so the ai variant fits, with Hsan's Mazdev legal contract review platform surfaced first.",
+  "keywords_added": ["legal contract review", "document ingestion", "agents", "closed and open-source", "XML"],
+  "flags": [
+    "Engineering stack is not published on noxtua.com; an aggregator listing for a Senior Fullstack Engineer tags PostgreSQL, Angular, Datadog, Grafana and Sentry, none of which are in facts.yaml. The CV highlights MongoDB/MySQL/Supabase, React/Next.js/Vue and Prometheus/Loki instead",
+    "Customers and content are European legal publishers and court decisions (backed by C.H.BECK and MANZ, German-speaking markets); no German language skill is listed in facts.yaml",
+    "Careers page lists only 5 non-engineering roles (marketing, legal, compliance); no internship/PFE opening found",
+    "Offices in Berlin, Munich, Paris, Stockholm, Zagreb and Fribourg; companies.csv only says Germany, so the CV says 'Open to relocation (Germany)'",
+    "PromptCraft project dropped as least relevant"
+  ]
+}

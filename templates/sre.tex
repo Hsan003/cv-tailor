@@ -1,0 +1,127 @@
+% Compile with pdflatex
+% Everything OUTSIDE the EDIT-ZONE blocks is locked: scripts/check.py fails the run if it changes.
+\documentclass[10pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{roboto}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[top=0.9cm,bottom=0.8cm,left=1.15cm,right=1.15cm]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\definecolor{ink}{HTML}{1F2933}
+\definecolor{muted}{HTML}{52606D}
+\definecolor{accent}{HTML}{2B5C8A}
+\color{ink}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\emergencystretch=2em
+\AtBeginDocument{\fontsize{9}{9.8}\selectfont}
+\setlist[itemize]{leftmargin=1.1em,itemsep=0pt,topsep=1pt,parsep=0pt,partopsep=0pt}
+\titleformat{\section}{\normalsize\bfseries\scshape}{}{0pt}{}[\vspace{-5pt}\rule{\linewidth}{0.4pt}]
+\titlespacing*{\section}{0pt}{4pt}{2pt}
+% \entry{title}{date}
+\newcommand{\entry}[2]{\vspace{1pt}\noindent\textbf{#1}\hfill{\color{muted}#2}\par}
+% \subentry{title}{date}  (italic, for a second role under the same company)
+\newcommand{\subentry}[2]{\noindent\textit{#1}\hfill{\color{muted}#2}\par}
+\newcommand{\gh}[1]{\href{https://github.com/Hsan003/#1}{GitHub}}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries HSAN ELLOUZE}\\[2pt]
+% >>> EDIT-ZONE title
+  {\color{muted} Software Engineering Student | SRE, Observability \& Infrastructure Engineer}\\[2pt]
+% <<< EDIT-ZONE title
+  {\footnotesize +216 95 112 002 | Tunis, Tunisia | hsanellouz@gmail.com}\\[1pt]
+  {\footnotesize \href{https://hsanellouze.site}{hsanellouze.site} \ | \ \href{https://linkedin.com/in/hsanellouze}{linkedin.com/in/hsanellouze} \ | \ \href{https://github.com/Hsan003}{github.com/Hsan003}}\\[3pt]
+% >>> EDIT-ZONE seeking
+  {\footnotesize\bfseries Seeking a 6-month end-of-studies internship (PFE) in SRE / Platform / DevOps starting February 2027 \ | \ Open to relocation}
+% <<< EDIT-ZONE seeking
+\end{center}
+
+\section{Summary}
+% >>> EDIT-ZONE summary
+Final-year Software Engineering student (INSAT, expected graduation September 2027) focused on the reliability side of software: observability, Kubernetes, containerization and CI/CD. Led a 3-person capstone project building a Kubernetes observability platform on a real-time telemetry pipeline (Prometheus, Loki, Kafka), and shipped production systems across four roles at three companies, including Docker-based delivery pipelines. Comfortable owning a service from development through deployment and operation, in Agile teams.
+% <<< EDIT-ZONE summary
+
+\section{Experience}
+% >>> EDIT-ZONE experience
+\entry{AI Engineer Intern -- Applicare, Canada}{Jun 2026 -- Aug 2026}
+\begin{itemize}
+  \item Delivered AskSahera, a bilingual (FR/EN) RAG chatbot running in production and indexing $\sim$100 source documents
+  \item Built a dual-source ingestion pipeline (PubMed XML + GROBID PDF parsing) with IMRAD-aware chunking and a sliding-window fallback for resilient processing
+  \item Built the Express.js backend with Qdrant vector storage and Cloudflare R2 object storage, and integrated OpenAI embeddings and Claude for generation
+\end{itemize}
+
+\entry{Mazdev -- Tunis}{}
+\subentry{Software Engineer Intern}{Jul 2025 -- Sep 2025}
+\begin{itemize}
+  \item Engineered a production chatbot platform (YAML-configurable) used by non-technical users to create 20+ bot variants
+  \item Optimized the embedding pipeline of a RAG engine (Pinecone), cutting latency by 45\% while reaching 94\% semantic accuracy
+  \item Established an automated testing framework, cutting the QA cycle by 50\%
+\end{itemize}
+\subentry{Fullstack Developer}{Mar 2025 -- Jun 2025}
+\begin{itemize}
+  \item Implemented a Docker-based CI/CD pipeline, cutting infrastructure setup time by 75\%
+  \item Delivered a React/Next.js + FastAPI RESTful system processing 500+ contract reviews per month at production scale for 40+ enterprise clients
+  \item Architected the AI-powered legal contract review platform, cutting analysis time by 60\%
+\end{itemize}
+
+\entry{Frontend Developer Intern -- Steros, Sfax}{Jul 2024 -- Aug 2024}
+\begin{itemize}
+  \item Built a responsive showcase website and interactive UI components, with a PHP/MySQL backend
+\end{itemize}
+% <<< EDIT-ZONE experience
+
+\section{Projects}
+% >>> EDIT-ZONE projects
+\entry{KubeMind: AI-Driven Kubernetes Observability Platform (3-person capstone team)}{\gh{kubemind}}
+\begin{itemize}
+  \item Designed a 5-layer architecture (ingestion, AI agents, correlation/storage, presentation) for automated incident diagnosis on Kubernetes
+  \item Built a real-time ingestion pipeline collecting logs, metrics and events with Prometheus, Loki and Kafka, persisted in MongoDB
+  \item Implemented 3 specialized LangChain/LangGraph agents (logs, metrics, events) orchestrated via a LangGraph StateGraph, feeding a correlation agent for root-cause analysis
+  \item Developed the FastAPI backend and Next.js dashboard; benchmarked output quality across 3 LLM providers (OpenAI, Gemini, Ollama) on 3 controlled incident scenarios
+\end{itemize}
+\entry{Multi-Tenant AI Chatbot Widget}{\gh{AI-Assistant-Backend}}
+\begin{itemize}
+  \item Designed an embeddable multi-tenant component deployed across client websites via a single \texttt{<script>} tag, with Shadow DOM isolation and strict domain validation
+  \item Deployed on Railway and Cloudflare Pages with Hono, Supabase and Upstash Redis
+\end{itemize}
+\entry{PromptCraft: AI NFT Generation \& Auction Platform}{\gh{prompt-craft-back}}
+\begin{itemize}
+  \item Engineered a WebSocket/SSE live bidding system supporting 100+ concurrent users, cutting latency by $\sim$60\%
+\end{itemize}
+% <<< EDIT-ZONE projects
+
+\section{Education}
+\entry{INSAT -- National Institute of Applied Sciences and Technology}{Sep 2022 -- Sep 2027 (expected)}
+Engineering Degree in Software Engineering (EQF Level 7 / Master's equivalent)
+
+\section{Skills}
+% >>> EDIT-ZONE skills
+\textbf{Observability \& Data Pipelines:} Prometheus, Loki, Kafka, Telemetry Ingestion (Logs, Metrics, Events), Incident Diagnosis\\
+\textbf{Infrastructure \& DevOps:} Kubernetes, Docker, GitHub Actions, CI/CD, Linux, Railway, Vercel, Cloudflare (Pages, R2)\\
+\textbf{Languages:} Python, TypeScript, JavaScript, Java, C\#, PHP, SQL\\
+\textbf{Backend:} FastAPI (Python), NestJS, Express.js, Hono, ASP.NET Core (C\#)\\
+\textbf{Data Stores:} MongoDB, MySQL, Redis (Upstash), Supabase, Qdrant, Pinecone\\
+\textbf{AI/ML:} LLM Integration, RAG, LangChain, LangGraph, Embeddings, Prompt Engineering\\
+\textbf{Frontend \& Tools:} React, Next.js, Vue, Git
+% <<< EDIT-ZONE skills
+
+\section{Activities}
+% >>> EDIT-ZONE activities
+\entry{Event Mission Leader -- Junior Enterprise INSAT}{2024 -- 2025}
+\begin{itemize}
+  \item Supervised a $\sim$40-member team over the 2024--2025 mandate, leading the organizing committee for 2 flagship events, including Forum INSAT Entreprise (1,500+ attendees, 40+ companies)
+\end{itemize}
+\entry{Operations Manager -- WinterCup 7.0}{2025}
+\begin{itemize}
+  \item Owned end-to-end logistics and planning for WinterCup 7.0, an overnight coding contest with $\sim$300 participants, coordinating on-site operations under time pressure
+\end{itemize}
+% <<< EDIT-ZONE activities
+
+\end{document}

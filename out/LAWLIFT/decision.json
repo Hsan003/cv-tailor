@@ -1,0 +1,14 @@
+{
+  "company": "LAWLIFT",
+  "variant": "general",
+  "reason": "lawlift.com presents Lawlift GmbH as a legal document automation SaaS for legal departments and law firms: auto-templating, questionnaire-driven deterministic document generation, a Word add-in, bilingual templates, embeddable/white-label publishing and a documented API. It also connects to OpenAI, Claude, Noxtua and DeepL with user-approved AI drafting and review. AI is a feature layer on a product SaaS rather than the core, so the general variant fits, with Hsan's Mazdev legal contract review platform and OpenAI/Claude integration surfaced first.",
+  "keywords_added": ["legal contract review", "document workflows", "LLM integration", "bilingual (FR/EN)", "embeddable", "configurable platforms for non-technical users"],
+  "flags": [
+    "Engineering stack not published: lawlift.com/careers and /jobs return 404 and no LawLift job posting was found via search, so no stack-specific keywords were added",
+    "Lawlift's product is Word-centric (Word add-in, documents generated in Word); Microsoft Word/Office add-in development is not in facts.yaml and is not claimed",
+    "Product and customers are German-speaking (English and German UI); no German language skill is listed in facts.yaml",
+    "No internship/PFE opening found; spontaneous application",
+    "Contact column empty in companies.csv; mail uses 'Hello,'",
+    "City from companies.csv (Berlin), consistent with Startbase profile (Berlin, 11-50 employees, founded 2015)"
+  ]
+}

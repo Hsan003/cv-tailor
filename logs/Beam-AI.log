@@ -1,7 +1,0 @@
-I used the `ai` variant because Beam AI builds Agent OS, a platform where AI agents automate enterprise workflows, and its Berlin job ads ask for agentic frameworks, LLMs, RAG and prompt engineering.
-
-Flags:
-- `companies.csv` has no contact name, so the mail opens with "Hello,".
-- Beam AI doesn't publish its stack. One job board ad lists Node.js/Python/Go, AWS/GCP/Azure and LlamaIndex. The CV shows Python, Express.js, LangChain/LangGraph and Docker/Railway/Cloudflare, and no AWS, GCP or Azure.
-- The current Berlin openings are client-facing roles that ask for 2-3 years of experience, and there is no internship or PFE listing.
-- Beam AI's agents mainly target finance and HR, and Hsan has no experience in either field.

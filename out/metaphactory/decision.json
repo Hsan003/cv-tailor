@@ -1,9 +1,0 @@
-{"company": "metaphactory",
- "variant": "ai",
- "reason": "metaphactory (metaphacts, Walldorf, a Digital Science solution) presents itself as 'the semantic intelligence layer for enterprise AI': a knowledge graph platform built on W3C standards (RDF, OWL, SHACL, SPARQL) plus metis, its enterprise AI platform that answers questions grounded in a governed semantic model. Its 5.10 release added vector search and beta embedding-based retrieval to the Search & Discovery Agent, which maps directly onto Hsan's production RAG and embedding work, so ai fits better than general.",
- "keywords_added": ["grounded answers", "structure-aware chunking", "embedding-based retrieval", "semantic search", "enterprise AI", "agentic"],
- "flags": [
-   "Core of the product is knowledge graphs / semantic web (RDF, OWL, SHACL, SPARQL); Hsan has no experience with these, CV highlights RAG, embeddings and vector search (Qdrant/Pinecone) instead",
-   "Past metaphacts engineering postings are Java-centric (Senior Java Developer with SPARQL/RDF); Java is in skills but no CV bullet shows Java work",
-   "No current internship/PFE opening found (careers page returned 404); purely spontaneous application"
- ]}

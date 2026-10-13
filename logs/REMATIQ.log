@@ -1,8 +1,0 @@
-**Variant: ai.** REMATIQ sells AI-native product compliance for life sciences, built on a knowledge graph with agentic workflows on top, and its Berlin postings describe an "AI requirements engine, document processing pipelines and compliance workflows". The CV passed `check.py` on the first run (CHECK OK, 1 page).
-
-**Flags:**
-- **Stack gaps:** the postings name PostgreSQL/pgvector, Prisma, Azure (OpenAI and Blob Storage), DBOS, Langfuse, Sentry, OpenTelemetry, Vite, pnpm and Turborepo, none of which are in `facts.yaml`. The CV puts Express.js/TypeScript, React, Qdrant/Pinecone, OpenAI and Docker/Kubernetes forward instead.
-- **No knowledge-graph experience:** the closest evidence shown is RAG over medical literature and the legal contract review platform.
-- **No regulated-domain experience:** nothing on GxP, regulatory affairs or quality management.
-- **On-site in Berlin-Mitte, German not listed:** no German skill in `facts.yaml`. `companies.csv` only says Germany, so the CV says "Open to relocation (Berlin)" based on the postings.
-- **No internship or PFE opening:** the listed roles are senior engineering or non-engineering.

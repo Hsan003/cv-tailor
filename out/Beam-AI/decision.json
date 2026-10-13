@@ -1,8 +1,0 @@
-{"company": "Beam AI",
- "variant": "ai",
- "reason": "beam.ai sells Agent OS, 'the self-learning OS for AI-native companies': a no-code platform where AI agents automate enterprise workflows (finance and HR, invoice reconciliation, accounts receivable), with 1000+ integrations, and it reports more than 10 million agent tasks processed. Its Berlin job ads ask for agentic frameworks, LLMs, RAG, vector databases, prompt engineering and API integrations, which makes it an AI-first agent company. The ai variant fits, led by the LangGraph multi-agent project and the production chatbot/RAG work.",
- "keywords_added": ["AI agents", "agentic", "chatbot platform", "enterprise clients", "Prompt Engineering"],
- "flags": ["No contact name in companies.csv; mail uses 'Hello,'",
-           "beam.ai and its careers page publish no engineering stack; a Software Architect ad (job board) mentions Node.js/Python/Go, AWS/GCP/Azure and LlamaIndex. CV shows Python, Express.js, LangChain/LangGraph and Docker/Railway/Cloudflare, with no cloud hyperscaler",
-           "Current Berlin openings are Solutions/AI Agent/Forward Deployed Engineer (client-facing, 2-3 years experience); the careers page shows no internship or PFE listing",
-           "Beam's agents are built mainly for finance/HR operations; Hsan has no finance or HR domain experience"]}

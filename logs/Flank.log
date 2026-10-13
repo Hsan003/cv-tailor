@@ -1,4 +1,0 @@
-I used the `ai` variant because Flank builds AI agents that handle contract intake, drafting, review and redlining for enterprise legal teams, which matches Hsan's legal contract review platform at Mazdev and his LangGraph agents. Flags:
-- Flank doesn't publish its tech stack. The only technical details are a proprietary agent framework and a "vector-less" search engine, so the CV leads with the kind of work rather than tools.
-- The careers page has no engineering openings, only a Client Delivery Manager role (UK/UAE remote).
-- `companies.csv` has no contact name, so the mail opens with "Hello,".

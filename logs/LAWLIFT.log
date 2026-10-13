@@ -1,8 +1,0 @@
-**general**: Lawlift is a legal document automation SaaS (auto-templating, questionnaire-based generation, Word add-in), and its links to OpenAI and Claude are features on top, not the core product. The CV leads with Hsan's legal contract review platform at Mazdev and his OpenAI/Claude work.
-
-Flags:
-- Lawlift doesn't publish its tech stack: the careers and jobs pages return 404, and searching found no job postings.
-- The product is built around Word, and Word add-in development isn't claimed because it isn't in `facts.yaml`.
-- The product and customers are German-speaking, and `facts.yaml` lists no German skill.
-- No internship opening exists, so this is a spontaneous application.
-- The contact column is empty, so the mail opens with "Hello,".

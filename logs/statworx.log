@@ -1,6 +1,0 @@
-I used the `ai` variant: statworx is a Frankfurt data and AI consultancy whose custom GenAI work centres on the CustomGPT platform (the RAG chatbot behind hagebauGPT) and agentic AI, and its careers page names an AI Development team. `check.py` passed (`CHECK OK`, 1 page) and the mail is written. Flags:
-- statworx lists PyTorch, TensorFlow, R, Spark, Databricks, Airflow and MLflow, which Hsan has not used, so the CV leads with LLM/RAG work and claims no classical ML, deep learning or data-platform experience.
-- Its cloud partners are AWS, Azure and Google Cloud, which Hsan has not used, so the CV highlights Docker, Kubernetes, Railway and Cloudflare instead.
-- The CV does not cover statworx's forecasting, computer vision or data lakehouse work.
-- The careers page shows no open positions. It says thesis ideas would be posted as jobs, and the contact is jobs@statworx.com.
-- `companies.csv` has no contact name, so the mail opens with "Hello,".
